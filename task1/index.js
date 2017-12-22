@@ -49,4 +49,4 @@ const normalizer = obj => {
  return normalizedObj;
 }
 
-const autoCurry = (fn, ...args) => args.length === fn.length ? fn(...args) : curry.bind(this, fn, ...args);
+const autoCurry = (fn, ...args) => args.length === fn.length ? fn(...args) : autoCurry.bind(this, fn, ...args);

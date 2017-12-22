@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "env",
+    "import-export",
+    "stage-2",
+    "es2015"
+  ]
+}

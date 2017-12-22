@@ -1,0 +1,1 @@
+console.log(modulus.store ('1key', 1));
